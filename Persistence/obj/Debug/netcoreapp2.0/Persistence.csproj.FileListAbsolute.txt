@@ -1,0 +1,42 @@
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Persistence/bin/Debug/netcoreapp2.0/Persistence.deps.json
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Persistence/bin/Debug/netcoreapp2.0/Persistence.dll
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Persistence/obj/Debug/netcoreapp2.0/Persistence.csprojAssemblyReference.cache
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Persistence/obj/Debug/netcoreapp2.0/Persistence.csproj.CoreCompileInputs.cache
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Persistence/obj/Debug/netcoreapp2.0/Persistence.AssemblyInfoInputs.cache
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Persistence/obj/Debug/netcoreapp2.0/Persistence.AssemblyInfo.cs
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Persistence/bin/Debug/netcoreapp2.0/Persistence.runtimeconfig.json
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Persistence/bin/Debug/netcoreapp2.0/Persistence.runtimeconfig.dev.json
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Persistence/bin/Debug/netcoreapp2.0/Persistence.pdb
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Persistence/bin/Debug/netcoreapp2.0/Model.dll
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Persistence/bin/Debug/netcoreapp2.0/Model.pdb
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Persistence/obj/Debug/netcoreapp2.0/Persistence.csproj.CopyComplete
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Persistence/obj/Debug/netcoreapp2.0/Persistence.dll
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Persistence/obj/Debug/netcoreapp2.0/Persistence.pdb
+/Users/esmerlinjoel/OneDrive/API/Persistence/bin/Debug/netcoreapp2.0/Persistence.deps.json
+/Users/esmerlinjoel/OneDrive/API/Persistence/bin/Debug/netcoreapp2.0/Persistence.runtimeconfig.json
+/Users/esmerlinjoel/OneDrive/API/Persistence/bin/Debug/netcoreapp2.0/Persistence.runtimeconfig.dev.json
+/Users/esmerlinjoel/OneDrive/API/Persistence/bin/Debug/netcoreapp2.0/Persistence.dll
+/Users/esmerlinjoel/OneDrive/API/Persistence/bin/Debug/netcoreapp2.0/Persistence.pdb
+/Users/esmerlinjoel/OneDrive/API/Persistence/bin/Debug/netcoreapp2.0/Model.dll
+/Users/esmerlinjoel/OneDrive/API/Persistence/bin/Debug/netcoreapp2.0/Model.pdb
+/Users/esmerlinjoel/OneDrive/API/Persistence/obj/Debug/netcoreapp2.0/Persistence.csprojAssemblyReference.cache
+/Users/esmerlinjoel/OneDrive/API/Persistence/obj/Debug/netcoreapp2.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/esmerlinjoel/OneDrive/API/Persistence/obj/Debug/netcoreapp2.0/Persistence.AssemblyInfoInputs.cache
+/Users/esmerlinjoel/OneDrive/API/Persistence/obj/Debug/netcoreapp2.0/Persistence.AssemblyInfo.cs
+/Users/esmerlinjoel/OneDrive/API/Persistence/obj/Debug/netcoreapp2.0/Persistence.csproj.CopyComplete
+/Users/esmerlinjoel/OneDrive/API/Persistence/obj/Debug/netcoreapp2.0/Persistence.dll
+/Users/esmerlinjoel/OneDrive/API/Persistence/obj/Debug/netcoreapp2.0/Persistence.pdb
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Persistence\bin\Debug\netcoreapp2.0\Persistence.deps.json
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Persistence\bin\Debug\netcoreapp2.0\Persistence.runtimeconfig.json
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Persistence\bin\Debug\netcoreapp2.0\Persistence.runtimeconfig.dev.json
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Persistence\bin\Debug\netcoreapp2.0\Persistence.dll
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Persistence\bin\Debug\netcoreapp2.0\Persistence.pdb
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Persistence\bin\Debug\netcoreapp2.0\Model.dll
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Persistence\bin\Debug\netcoreapp2.0\Model.pdb
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Persistence\obj\Debug\netcoreapp2.0\Persistence.csprojAssemblyReference.cache
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Persistence\obj\Debug\netcoreapp2.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Persistence\obj\Debug\netcoreapp2.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Persistence\obj\Debug\netcoreapp2.0\Persistence.AssemblyInfo.cs
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Persistence\obj\Debug\netcoreapp2.0\Persistence.csproj.CopyComplete
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Persistence\obj\Debug\netcoreapp2.0\Persistence.dll
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Persistence\obj\Debug\netcoreapp2.0\Persistence.pdb

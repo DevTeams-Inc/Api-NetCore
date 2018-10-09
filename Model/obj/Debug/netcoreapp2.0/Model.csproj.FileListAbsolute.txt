@@ -1,0 +1,27 @@
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Model/bin/Debug/netcoreapp2.0/Model.deps.json
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Model/bin/Debug/netcoreapp2.0/Model.dll
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Model/bin/Debug/netcoreapp2.0/Model.pdb
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Model/obj/Debug/netcoreapp2.0/Model.csproj.CoreCompileInputs.cache
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Model/obj/Debug/netcoreapp2.0/Model.AssemblyInfoInputs.cache
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Model/obj/Debug/netcoreapp2.0/Model.AssemblyInfo.cs
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Model/obj/Debug/netcoreapp2.0/Model.dll
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Model/obj/Debug/netcoreapp2.0/Model.pdb
+C:/Users/Esmerlin Joel/Desktop/Programas e Instalaciones/Proyecto Final P3/Sistema Facturacion ASP.NET Core 2 y VueJS/API/Model/obj/Debug/netcoreapp2.0/Model.csprojAssemblyReference.cache
+/Users/esmerlinjoel/OneDrive/API/Model/bin/Debug/netcoreapp2.0/Model.deps.json
+/Users/esmerlinjoel/OneDrive/API/Model/bin/Debug/netcoreapp2.0/Model.dll
+/Users/esmerlinjoel/OneDrive/API/Model/bin/Debug/netcoreapp2.0/Model.pdb
+/Users/esmerlinjoel/OneDrive/API/Model/obj/Debug/netcoreapp2.0/Model.csprojAssemblyReference.cache
+/Users/esmerlinjoel/OneDrive/API/Model/obj/Debug/netcoreapp2.0/Model.csproj.CoreCompileInputs.cache
+/Users/esmerlinjoel/OneDrive/API/Model/obj/Debug/netcoreapp2.0/Model.AssemblyInfoInputs.cache
+/Users/esmerlinjoel/OneDrive/API/Model/obj/Debug/netcoreapp2.0/Model.AssemblyInfo.cs
+/Users/esmerlinjoel/OneDrive/API/Model/obj/Debug/netcoreapp2.0/Model.dll
+/Users/esmerlinjoel/OneDrive/API/Model/obj/Debug/netcoreapp2.0/Model.pdb
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Model\bin\Debug\netcoreapp2.0\Model.deps.json
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Model\bin\Debug\netcoreapp2.0\Model.dll
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Model\bin\Debug\netcoreapp2.0\Model.pdb
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Model\obj\Debug\netcoreapp2.0\Model.csprojAssemblyReference.cache
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Model\obj\Debug\netcoreapp2.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Model\obj\Debug\netcoreapp2.0\Model.AssemblyInfoInputs.cache
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Model\obj\Debug\netcoreapp2.0\Model.AssemblyInfo.cs
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Model\obj\Debug\netcoreapp2.0\Model.dll
+C:\Users\orbis\Desktop\Administraccion\First-Proyect\API-Facturation-System-master\Model\obj\Debug\netcoreapp2.0\Model.pdb
