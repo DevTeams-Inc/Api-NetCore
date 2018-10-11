@@ -75,9 +75,9 @@ namespace Service
             try
             {
                 result = _persistenceDbContext.Sales
-                    .Include( p => p.Product)
-                    .Include( c => c.Client )
-                    .Include( u => u.User )
+                    .Include(p => p.Product)
+                    .Include(c => c.Client)
+                    .Include(u => u.User)
                     .ToList();
             }
             catch (Exception)

@@ -30,6 +30,7 @@ namespace API
             services.AddTransient<IUserService, UserService>();
             services.AddTransient<ISupplierService, SupplierService>();
             services.AddTransient<IProductService, ProductService>();
+            services.AddTransient<ISaleService, SaleService>();
 
 
             services.AddCors(options =>
