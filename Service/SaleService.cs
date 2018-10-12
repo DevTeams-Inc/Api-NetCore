@@ -69,22 +69,20 @@ namespace Service
             return result;
         }
 
-        //revisar los Includes
         public IEnumerable<Sale> GetAll()
         {
             var result = new List<Sale>();
-
             try
             {
                 result = _persistenceDbContext.Sales
+                    .Include(x => x.Client)
+                    .Include(x => x.User)
                     .ToList();
             }
             catch (Exception)
             {
-
                 throw;
             }
-
             return result;
         }
 

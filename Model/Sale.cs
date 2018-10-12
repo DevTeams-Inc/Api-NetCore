@@ -12,10 +12,6 @@ namespace Model
     {
         public int SaleId { get; set; }
 
-       
-
-       
-
         [Required]
         public DateTime SaleDate { get; set; }
 
@@ -30,13 +26,6 @@ namespace Model
         [RegularExpression(@"^\d+\.\d{0,2}$")]
         public decimal Total { get; set; }
 
-
-        //[ForeignKey("Product")]
-        //public int ProductId { get; set; }
-        //public IEnumerable<Product> Product { get; set; }
-
-
-
         [ForeignKey("User")]
         public int UserId { get; set; }
 
@@ -46,10 +35,5 @@ namespace Model
         public Client Client { get; set; }
 
         public User User { get; set; }
-
-
-
-
-
     }
 }

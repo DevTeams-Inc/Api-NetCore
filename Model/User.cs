@@ -44,8 +44,6 @@ namespace Model
         [Required]
         public Roles Role { get; set; }
 
-        public IEnumerable<Sale> Sales { get; set; }
-
     }
 
 }

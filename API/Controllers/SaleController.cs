@@ -35,34 +35,20 @@ namespace API.Controllers
             return "value";
         }
 
-
-        //revisar error del Json
         [HttpPost]
         public IActionResult Post([FromBody]SaleProductVM  model)
         {
-
-
             try
             {
                 return Ok(
                    _saleService.Add(model)
                    );
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                Console.WriteLine("este error :" + e.Message);
                 return BadRequest();
 
             }
-
-
-            //if (ModelState.IsValid)
-            //{
-               
-            //}
-            //else
-            //{
-            //}
         }
  
         [HttpPut("{id}")]
