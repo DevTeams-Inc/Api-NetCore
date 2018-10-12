@@ -664,23 +664,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\orbis\\.nuget\\packages\\": {},
+    "C:\\Users\\Carlos\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\orbis\\Desktop\\Administraccion\\First-Proyect\\API-Facturation-System-master\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\Api Sistema Facturacion\\Api-NetCore\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "C:\\Users\\orbis\\Desktop\\Administraccion\\First-Proyect\\API-Facturation-System-master\\Repository\\Repository.csproj",
-      "packagesPath": "C:\\Users\\orbis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\orbis\\Desktop\\Administraccion\\First-Proyect\\API-Facturation-System-master\\Repository\\obj\\",
+      "projectPath": "C:\\Users\\Carlos\\Desktop\\Api Sistema Facturacion\\Api-NetCore\\Repository\\Repository.csproj",
+      "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Carlos\\Desktop\\Api Sistema Facturacion\\Api-NetCore\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\orbis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
