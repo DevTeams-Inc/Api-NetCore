@@ -13,7 +13,7 @@ namespace Service
     public class SaleService : ISaleService
     {
         private readonly PersistenceDbContext _persistenceDbContext;
-
+        
         public SaleService(PersistenceDbContext persistenceDbContext)
         {
             _persistenceDbContext = persistenceDbContext;
@@ -151,36 +151,31 @@ namespace Service
 
         public SaleProductVM GetSaleDetail(int id)
         {
-            //Error
             var sl = new SaleProductVM();
             try
             {
 
                 var sale = _persistenceDbContext.SalesProducts
                             .Include(s => s.Product)
+                            .Include(s => s.Sale)
                             .Where(s => s.SaleId == id);
+
                 sl.Sale = _persistenceDbContext.Sales
                       .First(s => s.SaleId == id);
 
                 var p = new Product();
-                foreach(var i in sale)
+                var q = new List<Product>();
+
+                foreach (var i in sale)
                 {
                     p = _persistenceDbContext.Products
-                        .Single(x => x.ProductId == i.ProductId);
+                        .First(x => x.ProductId == i.ProductId);
 
+                    q.Add(p); 
+                    
                 }
 
-                sl.Products =    p;
-
-
-
-                //   var pr = _persistenceDbContext.Products.Where(x => x.ProductId == vp.ProductId).ToList();
-                //foreach(var i in pr)
-                //{
-                //    sl.Products = i;
-                //}
-
-                //   sl.Sale = sale;
+                sl.Products = q;
             }
             catch (Exception)
             {
