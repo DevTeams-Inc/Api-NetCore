@@ -13,6 +13,15 @@ namespace API.Controllers
     public class ClientController : Controller
     {
 
+
+        /*
+         
+             carlitos klk manito
+             
+             */
+
+
+
         private readonly IClientService _clientService;
 
         public ClientController(IClientService clientService)

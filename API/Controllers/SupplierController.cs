@@ -56,7 +56,7 @@ namespace API.Controllers
         }
         
         public IActionResult Put([FromBody]Supplier model)
-        {
+      {
             if (!ModelState.IsValid)
             {
                 return BadRequest();
