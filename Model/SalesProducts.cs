@@ -17,8 +17,8 @@ namespace Model
         [Required]
         public int Quantity { get; set; }
 
-        public Sale Ventas { get; set; }
-        public Product Producto { get; set; }
+        public Sale Sale { get; set; }
+        public Product Product { get; set; }
 
     }
 }

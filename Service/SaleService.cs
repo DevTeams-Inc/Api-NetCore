@@ -39,8 +39,8 @@ namespace Service
         {
             try
             {
-                _persistenceDbContext.Remove(new Sale { SaleId = id }).State
-                    = EntityState.Deleted;
+                var model = _persistenceDbContext.Sales.Single(x => x.SaleId == id);
+                _persistenceDbContext.Remove(model);
                 _persistenceDbContext.SaveChanges();
             }
             catch (Exception)
@@ -86,7 +86,6 @@ namespace Service
             return result;
         }
 
-        //Cambios revisar
         public bool Add(SaleProductVM viewModelPV)
         {
             try
@@ -106,20 +105,21 @@ namespace Service
                     _persistenceDbContext.SalesProducts.Add(sp);
                     _persistenceDbContext.SaveChanges();
 
-                    //var newQuantity = _systemDbContextVentas.productos.Find(sp.Productos);
-                    //newQuantity.CantidadProducto = newQuantity.CantidadProducto - p.CantidadProducto;
-                    //_systemDbContextVentas.productos.Update(newQuantity);
-                    //_systemDbContextVentas.SaveChanges();
+                    var newQuantity = _persistenceDbContext.Products.Find(p.ProductId);
+                    newQuantity.Quantity = newQuantity.Quantity - p.Quantity;
+                    _persistenceDbContext.Products.Update(newQuantity);
+                    _persistenceDbContext.SaveChanges();
                 }
                 return true;
             }
-            catch (Exception)
+            catch (Exception e)
             {
+                Console.WriteLine(e.Message);
                 throw;
             }
         }
 
-
+        //Not is a funtional
         public bool Update(Sale model)
         {
             try
@@ -147,6 +147,48 @@ namespace Service
             }
 
             return true;
+        }
+
+        public SaleProductVM GetSaleDetail(int id)
+        {
+            //Error
+            var sl = new SaleProductVM();
+            try
+            {
+
+                var sale = _persistenceDbContext.SalesProducts
+                            .Include(s => s.Product)
+                            .Where(s => s.SaleId == id);
+                sl.Sale = _persistenceDbContext.Sales
+                      .First(s => s.SaleId == id);
+
+                var p = new Product();
+                foreach(var i in sale)
+                {
+                    p = _persistenceDbContext.Products
+                        .Single(x => x.ProductId == i.ProductId);
+
+                }
+
+                sl.Products =    p;
+
+
+
+                //   var pr = _persistenceDbContext.Products.Where(x => x.ProductId == vp.ProductId).ToList();
+                //foreach(var i in pr)
+                //{
+                //    sl.Products = i;
+                //}
+
+                //   sl.Sale = sale;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
+            return sl;
+
         }
     }
 }

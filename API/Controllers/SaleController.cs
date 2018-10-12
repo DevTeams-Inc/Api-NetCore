@@ -29,10 +29,12 @@ namespace API.Controllers
                 );
         }
 
-        [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
         {
-            return "value";
+            return Ok(
+                _saleService.GetSaleDetail(id)
+                );
         }
 
         [HttpPost]
@@ -50,15 +52,14 @@ namespace API.Controllers
 
             }
         }
- 
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
-        {
-        }
+
 
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
+            return Ok(
+                _saleService.Delete(id)
+                );
         }
     }
 }

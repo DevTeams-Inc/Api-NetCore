@@ -10,5 +10,6 @@ namespace Service.IServices
     public interface ISaleService : IBaseService<Sale>
     {
         bool Add(SaleProductVM viewModelPV);
+        SaleProductVM GetSaleDetail(int id);
     }
 }
