@@ -40,6 +40,6 @@ namespace Model
         [RegularExpression(@"^\d+\.\d{0,2}$")]
         public decimal PricePerPurchase { get; set; }
 
-        public IEnumerable<Sale> Sales { get; set; }
+       // public IEnumerable<Sale> Sales { get; set; }
     }
 }

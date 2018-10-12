@@ -75,7 +75,6 @@ namespace Service
             try
             {
                 result = _persistenceDbContext.Sales
-                    .Include(p => p.Product)
                     .Include(c => c.Client)
                     .Include(u => u.User)
                     .ToList();
@@ -97,10 +96,8 @@ namespace Service
                         x => x.SaleId == model.SaleId
                     );
 
-                originalModel.Product = model.Product;
                 originalModel.User = model.User;
                 originalModel.Client = model.Client;
-                originalModel.ProductId = model.ProductId;
                 originalModel.UserId = model.UserId;
                 originalModel.ClientId = model.ClientId;
                 originalModel.Discount = model.Discount;

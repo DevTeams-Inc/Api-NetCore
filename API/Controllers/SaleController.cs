@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Model;
 using Service.IServices;
 
 namespace API.Controllers
@@ -34,8 +35,18 @@ namespace API.Controllers
         }
 
         [HttpPost]
-        public void Post([FromBody]string value)
+        public IActionResult Post([FromBody]Sale model)
         {
+            if (ModelState.IsValid)
+            {
+                return Ok(
+                    _saleService.Add(model)
+                    );
+            }
+            else
+            {
+                return BadRequest();
+            }
         }
  
         [HttpPut("{id}")]

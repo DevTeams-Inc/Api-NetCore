@@ -78,7 +78,8 @@ namespace Service
 
             try
             {
-                result = _persistenceDbContext.Clients.Include(s => s.Sales).
+                result = _persistenceDbContext.Clients.
+                    //Include(s => s.Sales).
                     ToList();
             }
             catch (Exception)
