@@ -3815,23 +3815,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Carlos\\.nuget\\packages\\": {},
+    "C:\\Users\\orbis\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\Api Sistema Facturacion\\Api-NetCore\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\orbis\\Desktop\\Administraccion\\First-Proyect\\API-Facturation-System-master\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "C:\\Users\\Carlos\\Desktop\\Api Sistema Facturacion\\Api-NetCore\\Service\\Service.csproj",
-      "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carlos\\Desktop\\Api Sistema Facturacion\\Api-NetCore\\Service\\obj\\",
+      "projectPath": "C:\\Users\\orbis\\Desktop\\Administraccion\\First-Proyect\\API-Facturation-System-master\\Service\\Service.csproj",
+      "packagesPath": "C:\\Users\\orbis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\orbis\\Desktop\\Administraccion\\First-Proyect\\API-Facturation-System-master\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\orbis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3844,14 +3844,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Carlos\\Desktop\\Api Sistema Facturacion\\Api-NetCore\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\Carlos\\Desktop\\Api Sistema Facturacion\\Api-NetCore\\Model\\Model.csproj"
+            "C:\\Users\\orbis\\Desktop\\Administraccion\\First-Proyect\\API-Facturation-System-master\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\orbis\\Desktop\\Administraccion\\First-Proyect\\API-Facturation-System-master\\Model\\Model.csproj"
             },
-            "C:\\Users\\Carlos\\Desktop\\Api Sistema Facturacion\\Api-NetCore\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\Carlos\\Desktop\\Api Sistema Facturacion\\Api-NetCore\\Persistence\\Persistence.csproj"
+            "C:\\Users\\orbis\\Desktop\\Administraccion\\First-Proyect\\API-Facturation-System-master\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\orbis\\Desktop\\Administraccion\\First-Proyect\\API-Facturation-System-master\\Persistence\\Persistence.csproj"
             },
-            "C:\\Users\\Carlos\\Desktop\\Api Sistema Facturacion\\Api-NetCore\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\Carlos\\Desktop\\Api Sistema Facturacion\\Api-NetCore\\Repository\\Repository.csproj"
+            "C:\\Users\\orbis\\Desktop\\Administraccion\\First-Proyect\\API-Facturation-System-master\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\orbis\\Desktop\\Administraccion\\First-Proyect\\API-Facturation-System-master\\Repository\\Repository.csproj"
             }
           }
         }

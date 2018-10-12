@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Model;
+using Model.VM;
 using Persistence;
 using Service.IServices;
 using System;
@@ -68,6 +69,7 @@ namespace Service
             return result;
         }
 
+        //revisar los Includes
         public IEnumerable<Sale> GetAll()
         {
             var result = new List<Sale>();
@@ -75,8 +77,6 @@ namespace Service
             try
             {
                 result = _persistenceDbContext.Sales
-                    .Include(c => c.Client)
-                    .Include(u => u.User)
                     .ToList();
             }
             catch (Exception)
@@ -87,6 +87,40 @@ namespace Service
 
             return result;
         }
+
+        //Cambios revisar
+        public bool Add(SaleProductVM viewModelPV)
+        {
+            try
+            {
+                DateTime today = DateTime.Now;
+                viewModelPV.Sale.SaleDate = today;
+                _persistenceDbContext.Add(viewModelPV.Sale);
+                _persistenceDbContext.SaveChanges();
+                var maxID = _persistenceDbContext.Sales.Max(x => x.SaleId);
+                SalesProducts sp;
+                foreach (var p in viewModelPV.Products)
+                {
+                    sp = new SalesProducts();
+                    sp.SaleId = maxID;
+                    sp.ProductId = p.ProductId;
+                    sp.Quantity = p.Quantity;
+                    _persistenceDbContext.SalesProducts.Add(sp);
+                    _persistenceDbContext.SaveChanges();
+
+                    //var newQuantity = _systemDbContextVentas.productos.Find(sp.Productos);
+                    //newQuantity.CantidadProducto = newQuantity.CantidadProducto - p.CantidadProducto;
+                    //_systemDbContextVentas.productos.Update(newQuantity);
+                    //_systemDbContextVentas.SaveChanges();
+                }
+                return true;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
 
         public bool Update(Sale model)
         {

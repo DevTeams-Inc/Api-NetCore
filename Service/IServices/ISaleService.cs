@@ -1,4 +1,5 @@
 ﻿using Model;
+using Model.VM;
 using Service.IServices.IBase;
 using System;
 using System.Collections.Generic;
@@ -8,5 +9,6 @@ namespace Service.IServices
 {
     public interface ISaleService : IBaseService<Sale>
     {
+        bool Add(SaleProductVM viewModelPV);
     }
 }

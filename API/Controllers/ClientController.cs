@@ -12,17 +12,6 @@ namespace API.Controllers
     [Route("/clients")]
     public class ClientController : Controller
     {
-
-
-        /*
-         
-             carlitos klk manito
-             Kelfry hijo del gallo
-             
-             */
-
-
-
         private readonly IClientService _clientService;
 
         public ClientController(IClientService clientService)

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Model;
+using Model.VM;
 using Service.IServices;
 
 namespace API.Controllers
@@ -34,19 +35,34 @@ namespace API.Controllers
             return "value";
         }
 
+
+        //revisar error del Json
         [HttpPost]
-        public IActionResult Post([FromBody]Sale model)
+        public IActionResult Post([FromBody]SaleProductVM  model)
         {
-            if (ModelState.IsValid)
+
+
+            try
             {
                 return Ok(
-                    _saleService.Add(model)
-                    );
+                   _saleService.Add(model)
+                   );
             }
-            else
+            catch (Exception e)
             {
+                Console.WriteLine("este error :" + e.Message);
                 return BadRequest();
+
             }
+
+
+            //if (ModelState.IsValid)
+            //{
+               
+            //}
+            //else
+            //{
+            //}
         }
  
         [HttpPut("{id}")]

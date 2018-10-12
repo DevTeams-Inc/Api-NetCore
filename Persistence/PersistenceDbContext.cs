@@ -19,5 +19,6 @@ namespace Persistence
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Sale> Sales { get; set; }
+        public DbSet<SalesProducts> SalesProducts { get; set; }
     }
 }
