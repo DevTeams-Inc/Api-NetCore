@@ -154,13 +154,13 @@ namespace Service
             var sl = new SaleProductVM();
             try
             {
-
                 var sale = _persistenceDbContext.SalesProducts
                             .Include(s => s.Product)
                             .Include(s => s.Sale)
                             .Where(s => s.SaleId == id);
-
                 sl.Sale = _persistenceDbContext.Sales
+                    .Include(x => x.Client)
+                    .Include(x => x.User)
                       .First(s => s.SaleId == id);
 
                 var p = new Product();
@@ -170,20 +170,16 @@ namespace Service
                 {
                     p = _persistenceDbContext.Products
                         .First(x => x.ProductId == i.ProductId);
-
+                    p.Quantity = i.Quantity;
                     q.Add(p); 
-                    
                 }
-
                 sl.Products = q;
             }
             catch (Exception)
             {
                 throw;
             }
-
             return sl;
-
         }
     }
 }
