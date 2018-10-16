@@ -87,6 +87,11 @@ namespace Service
             return result;
         }
 
+        public List<Supplier> Search(string param)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool Update(Supplier model)
         {
             try

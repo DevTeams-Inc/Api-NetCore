@@ -181,5 +181,10 @@ namespace Service
             }
             return sl;
         }
+
+        public List<Sale> Search(string param)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

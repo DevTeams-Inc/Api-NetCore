@@ -91,6 +91,23 @@ namespace Service
             return result;
         }
 
+        public List<Client> Search(string param)
+        {
+            var result = new List<Client>();
+            try
+            {
+                result = _persistenceDbContext.Clients  
+                        .Where(x => 
+                        x.Name.Contains(param) || x.LastName.Contains(param))
+                        .ToList();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return result;
+        }
+
         public bool Update(Client model)
         {
             try

@@ -53,7 +53,6 @@ namespace API.Controllers
             return Ok(createdClient);
         }
         
-        //[HttpPut("{id}")]
         public IActionResult Put([FromBody]Client model)
         {
             if (!ModelState.IsValid || model.ClientId == 0)
@@ -75,5 +74,15 @@ namespace API.Controllers
                     _clientService.Delete(id)
                 );
         }
+
+        [Route("/clients/search")]
+        [HttpGet]
+        public IActionResult Search([FromQuery] string query)
+        {
+            return Ok(
+                _clientService.Search(query)
+            );
+        }
+
     }
 }

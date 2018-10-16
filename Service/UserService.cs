@@ -89,6 +89,11 @@ namespace Service
             return result;
         }
 
+        public List<User> Search(string param)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool Update(User model)
         {
             try

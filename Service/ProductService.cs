@@ -2,6 +2,7 @@
 using Model;
 using Persistence;
 using Service.IServices;
+using Service.IServices.IBase;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -91,6 +92,11 @@ namespace Service
             return result;
         }
 
+        public Product Search(string param)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool Update(Product model)
         {
             try
@@ -117,6 +123,11 @@ namespace Service
             }
 
             return true;
+        }
+
+        List<Product> IBaseService<Product>.Search(string param)
+        {
+            throw new NotImplementedException();
         }
     }
 }
