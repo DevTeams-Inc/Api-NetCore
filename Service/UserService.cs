@@ -91,7 +91,19 @@ namespace Service
 
         public List<User> Search(string param)
         {
-            throw new NotImplementedException();
+            var result = new List<User>();
+            try
+            {
+                result = _persistenceDbContext.Users
+                        .Where(x =>
+                        x.Name.Contains(param) || x.Email.Contains(param) || x.UserName.Contains(param))
+                        .ToList();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return result;
         }
 
         public bool Update(User model)

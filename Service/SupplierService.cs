@@ -89,7 +89,19 @@ namespace Service
 
         public List<Supplier> Search(string param)
         {
-            throw new NotImplementedException();
+            var result = new List<Supplier>();
+            try
+            {
+                result = _persistenceDbContext.Suppliers
+                        .Where(x =>
+                        x.Name.Contains(param) || x.Dni.Contains(param))
+                        .ToList();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return result;
         }
 
         public bool Update(Supplier model)

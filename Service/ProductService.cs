@@ -54,6 +54,24 @@ namespace Service
             return false;
         }
 
+        public IEnumerable<Product> ExistenceOfProducts()
+        {
+            var result = new List<Product>();
+            try
+            {
+                result = _persistenceDbContext.Products
+                        .Where(x => x.Quantity == 0)
+                        .ToList();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return result;
+        }
+
         public Product Get(int id)
         {
             var result = new Product();
@@ -82,6 +100,7 @@ namespace Service
 
                 result = _persistenceDbContext.Products
                     .ToList();
+
             }
             catch (Exception)
             {
@@ -127,7 +146,19 @@ namespace Service
 
         List<Product> IBaseService<Product>.Search(string param)
         {
-            throw new NotImplementedException();
+            var result = new List<Product>();
+            try
+            {
+                result = _persistenceDbContext.Products
+                        .Where(x =>
+                        x.Name.Contains(param) || x.ProductCode.Contains(param))
+                        .ToList();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return result;
         }
     }
 }

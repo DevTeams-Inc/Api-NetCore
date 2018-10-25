@@ -79,5 +79,14 @@ namespace API.Controllers
                 );
             } 
         }
+
+        [Route("/users/search")]
+        [HttpGet]
+        public IActionResult Search([FromQuery] string query)
+        {
+            return Ok(
+                _userService.Search(query)
+            );
+        }
     }
 }

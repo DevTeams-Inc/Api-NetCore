@@ -12,14 +12,11 @@ namespace API.Controllers
     [Route("/products")]
     public class ProductController : Controller
     {
-
         private readonly IProductService _productService;
-
         public ProductController(IProductService productService)
         {
             _productService = productService;
         }
-
         [HttpGet]
         public IActionResult Get()
         {
@@ -27,7 +24,6 @@ namespace API.Controllers
                     _productService.GetAll()
                 );
         }
-
         [HttpGet("{id}", Name = "GetProduct")]
         public IActionResult Get(int id)
         {
@@ -40,7 +36,6 @@ namespace API.Controllers
 
             return Ok(result);
         }
-
         [HttpPost]
         public IActionResult Post([FromBody]Product model)
         {
@@ -53,20 +48,12 @@ namespace API.Controllers
 
             return Ok(createdProduct);
         }
-
-
         public IActionResult Put([FromBody]Product model)
         {
-            if (model.Equals(null) || model.ProductId.Equals(0))
-            {
-                return BadRequest();
-            }
-
             var updatedProduct = _productService.Update(model);
 
             return Ok(updatedProduct);
         }
- 
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
@@ -82,6 +69,14 @@ namespace API.Controllers
                     _productService.Delete(id)
                 );
             }
+        }
+        [Route("/products/search")]
+        [HttpGet]
+        public IActionResult Search([FromQuery] string query)
+        {
+            return Ok(
+                _productService.Search(query)
+            );
         }
     }
 }

@@ -32,7 +32,6 @@ namespace API
             services.AddTransient<IProductService, ProductService>();
             services.AddTransient<ISaleService, SaleService>();
 
-
             services.AddCors(options =>
             {
                 options.AddPolicy("AllowSpecificOrigin", builder =>

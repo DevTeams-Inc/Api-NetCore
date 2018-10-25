@@ -8,5 +8,6 @@ namespace Service.IServices
 {
     public interface IProductService: IBaseService<Product>
     {
+        IEnumerable<Product> ExistenceOfProducts();
     }
 }

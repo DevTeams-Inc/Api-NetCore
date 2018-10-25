@@ -80,5 +80,14 @@ namespace API.Controllers
                     _supplierService.Delete(id)
                 );
         }
+
+        [Route("/suppliers/search")]
+        [HttpGet]
+        public IActionResult Search([FromQuery] string query)
+        {
+            return Ok(
+                _supplierService.Search(query)
+            );
+        }
     }
 }
